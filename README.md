@@ -1,13 +1,5 @@
-# Sample Hardhat Project
+# Practice Smart Contract (Simple Wallet)
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+This project is done as a review of smart contract development basics.
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.ts
-```
+This is a simple wallet smart contract that lets the owner deposit, withdraw and check the wallet's balance.
